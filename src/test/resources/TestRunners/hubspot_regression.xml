@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding ="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testing,org/tetsing-1.0.dtd">
+
+<suite> name="HubSpot App Regression Test Suite" thread-count="2" parallel="tests"> 
+
+	<test> name = "login test" verbose="2">
+
+		<classes>
+			<class name="com.testss.LoginttestClass"/>
+		</classes>
+	</test>
+	
+	<test> name = "sign up test" verbose="2">
+
+		<classes>
+			<class name="com.testss.SignUpTest"/>
+		</classes>
+	</test>
+
+
+</suite>

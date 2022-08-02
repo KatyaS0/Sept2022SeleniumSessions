@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My TestNG Sanity Sessions">
+  <test name = "My testing practice Test" verbose="2">
+    <classes>
+      <class name="TestNGSessions.ExcepctedExceptionConcept"/>
+      <class name="TestNGSessions.PriorityTest"/>
+
+    </classes>
+  </test> 
+</suite>
